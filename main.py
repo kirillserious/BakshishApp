@@ -10,19 +10,18 @@ if __name__ == "__main__":
         layout="wide",
         initial_sidebar_state="expanded",
         menu_items={
-            'Get Help': 'https://www.extremelycoolapp.com/help',
-            'Report a bug': "https://www.extremelycoolapp.com/bug",
-            'About': "# This is a header. This is an *extremely* cool app!"
+            'About': "Bahşiş App is an app for multicurrency FX convertation rate monitoring."
         }
     )
 
-    st.write("Merhaba!")
+    st.write("## Merhaba!")
+
     col1, _ = st.columns([1, 3])
     button1 = col1.button(label="Push me, my friend!", key="test_button")
     if button1:
         st.write("Give me 50 TRY, brother!")
 
-    button1 = col1.button(label="Push me again!", key="test_button2")
-    if button1:
-        st.write("Bahşiş 100 TRY!")
+    button2 = col1.button(label="Push me again, please!", key="test_button2")
+    if button2:
+        st.write("Oooops... Bahşiş 100 TRY!")
     # Bahşiş
