@@ -21,4 +21,8 @@ if __name__ == "__main__":
     button1 = col1.button(label="Push me, my friend!", key="test_button")
     if button1:
         st.write("Give me 50 TRY, brother!")
+
+    button1 = col1.button(label="Push me again!", key="test_button")
+    if button1:
+        st.write("Bahşiş 100 TRY!")
     # Bahşiş
