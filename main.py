@@ -22,7 +22,7 @@ if __name__ == "__main__":
     if button1:
         st.write("Give me 50 TRY, brother!")
 
-    button1 = col1.button(label="Push me again!", key="test_button")
+    button1 = col1.button(label="Push me again!", key="test_button2")
     if button1:
         st.write("Bahşiş 100 TRY!")
     # Bahşiş
