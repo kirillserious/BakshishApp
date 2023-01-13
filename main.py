@@ -25,3 +25,7 @@ if __name__ == "__main__":
     if button2:
         st.write("Oooops... Bahşiş 100 TRY!")
     # Bahşiş
+    
+    button3 = col1.button(label="Selam aleyküm, kardeşim", key="test_button3")
+    if button3:
+        st.write("150 lira, kardeşim")
